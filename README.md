@@ -12,6 +12,8 @@ The goal of this repo is to document and store my completed work in hopes to arc
 
 ## Renders & PCB Design
 
+![Render 1](Pictures/Untitled%20Project%207.jpg)
+
 A few renders of the model and views of the PCB design so far:
 
 ## About the Build
