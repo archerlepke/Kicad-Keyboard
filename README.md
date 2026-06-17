@@ -15,11 +15,19 @@ The goal of this repo is to document and store my completed work in hopes to arc
 
 
 A few renders of the model and views of the PCB design so far:
+The case for the keyboard has been desinged in kicad => needs to be 3d printed 
 
+
+Solidworks renders of completed case & pcb:
 ![Render 2](Pictures/Untitled%20Project%208.jpg)
 ![Render 1](Pictures/Untitled%20Project%207.jpg)
 
+Kicad Renders:
 
+![KiCad Render 1](Pictures/front.jpg)
+![KiCad Render 2](Pictures/back.jpg)
+
+Kicad PCB editor view & schematic:
 ![PCB view 1](Pictures/Screenshot%20from%202026-06-17%2016-23-45.png)
 ![PCB view 2](Pictures/Screenshot%20from%202026-06-17%2016-24-40.png)
 
