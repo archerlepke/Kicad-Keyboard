@@ -1,0 +1,340 @@
+{
+  "__VERSION__": "225",
+  "Main": {
+    "Controls": [
+      {
+        "Calibration": [],
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/0",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Chassis Fan",
+        "NickName": "Chassis Fan",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8,
+        "SelectedCommandStepUp": 8,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [
+          [
+            10,
+            546
+          ],
+          [
+            20,
+            550
+          ],
+          [
+            30,
+            704
+          ],
+          [
+            40,
+            975
+          ],
+          [
+            50,
+            1204
+          ],
+          [
+            60,
+            1426
+          ],
+          [
+            70,
+            1598
+          ],
+          [
+            80,
+            1793
+          ],
+          [
+            90,
+            1951
+          ],
+          [
+            100,
+            2133
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "CPU Fan",
+        "NickName": "CPU Fan",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6798d/fan/1",
+          "IsHidden": false,
+          "Name": "CPU Fan",
+          "NickName": "CPU Fan"
+        },
+        "SelectedCommandStepDown": 8,
+        "SelectedCommandStepUp": 8,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 120,
+          "MinimumTemperature": 20,
+          "Name": "cpu AIO1",
+          "OneWayHysteresis": false,
+          "Points": [
+            "20,12.4284444444445",
+            "36.164976929596,15.8951111111111",
+            "47.6217081515427,19.0951111111111",
+            "64.4,30.0284444444444",
+            "73.8309425907907,43.8951111111111",
+            "85.601556859914,72.6951111111111",
+            "96.1166389403308,100"
+          ],
+          "SelectedHysteresis": 2,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "/amdcpu/0/temperature/2",
+            "IsHidden": false,
+            "Name": "Core (Tctl/Tdie)",
+            "NickName": "Core (Tctl/Tdie)"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            338
+          ],
+          [
+            20,
+            839
+          ],
+          [
+            30,
+            1183
+          ],
+          [
+            40,
+            1479
+          ],
+          [
+            50,
+            1729
+          ],
+          [
+            60,
+            1959
+          ],
+          [
+            70,
+            2153
+          ],
+          [
+            80,
+            2340
+          ],
+          [
+            90,
+            2519
+          ],
+          [
+            100,
+            2689
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/4",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "AIO Pump",
+        "NickName": "AIO Pump",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6798d/fan/4",
+          "IsHidden": false,
+          "Name": "AIO Pump",
+          "NickName": "AIO Pump"
+        },
+        "SelectedCommandStepDown": 8,
+        "SelectedCommandStepUp": 8,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IsHidden": false,
+          "Name": "Flat curve example",
+          "Percent": 25
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 18,
+        "SelectedStop": 6
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "NVApiWrapper/0-AD104-A/control/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Control 1 - NVIDIA GeForce RTX 4070",
+        "NickName": "Control 1 - NVIDIA GeForce RTX 4070",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8,
+        "SelectedCommandStepUp": 8,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "NVApiWrapper/0-AD104-A/control/1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Control 2 - NVIDIA GeForce RTX 4070",
+        "NickName": "Control 2 - NVIDIA GeForce RTX 4070",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8,
+        "SelectedCommandStepUp": 8,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      }
+    ],
+    "CustomSensors": [],
+    "Fahrenheit": false,
+    "FanCurves": [
+      {
+        "CommandMode": 0,
+        "IsHidden": false,
+        "Name": "Flat curve example",
+        "Percent": 25
+      },
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "Name": "cpu AIO1",
+        "OneWayHysteresis": false,
+        "Points": [
+          "20,12.4284444444445",
+          "36.164976929596,15.8951111111111",
+          "47.6217081515427,19.0951111111111",
+          "64.4,30.0284444444444",
+          "73.8309425907907,43.8951111111111",
+          "85.601556859914,72.6951111111111",
+          "96.1166389403308,100"
+        ],
+        "SelectedHysteresis": 2,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "/amdcpu/0/temperature/2",
+          "IsHidden": false,
+          "Name": "Core (Tctl/Tdie)",
+          "NickName": "Core (Tctl/Tdie)"
+        }
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/nct6798d/fan/0",
+        "IsHidden": false,
+        "Name": "Chassis Fan",
+        "NickName": "Chassis Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/1",
+        "IsHidden": false,
+        "Name": "CPU Fan",
+        "NickName": "CPU Fan"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/4",
+        "IsHidden": false,
+        "Name": "AIO Pump",
+        "NickName": "AIO Pump"
+      },
+      {
+        "Identifier": "/lpc/ec/fan/0",
+        "IsHidden": false,
+        "Name": "VRM Heat Sink Fan",
+        "NickName": "VRM Heat Sink Fan"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-AD104-A/fan/0",
+        "IsHidden": false,
+        "Name": "Fan 1 - NVIDIA GeForce RTX 4070",
+        "NickName": "Fan 1 - NVIDIA GeForce RTX 4070"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-AD104-A/fan/1",
+        "IsHidden": false,
+        "Name": "Fan 2 - NVIDIA GeForce RTX 4070",
+        "NickName": "Fan 2 - NVIDIA GeForce RTX 4070"
+      }
+    ],
+    "HideCalibration": false,
+    "HideFanSpeedCards": false,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF607D8B",
+    "SecondaryColor": "#FFAEEA00",
+    "SelectedTheme": "",
+    "ShowHiddenCards": true,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TemperatureSensors": [],
+    "TrayIconColor": null,
+    "TrayIcons": []
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "InpOut": false,
+      "Memory": false,
+      "Motherboard": true,
+      "PSU": false,
+      "Storage": false,
+      "ZeroRPMOverride": false
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": false
+    },
+    "SensorCount": 22
+  }
+}

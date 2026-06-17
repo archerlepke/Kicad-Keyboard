@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MX_Alps_Hybrid")(type "Legacy")(uri "C:/Users/arche/AppData/Local/Programs/KiCad/KiCad Github Modules/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "Legacy")(uri "C:/Users/arche/AppData/Local/Programs/KiCad/KiCad Github Modules/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name "Type-C")(type "Legacy")(uri "C:/Users/arche/AppData/Local/Programs/KiCad/KiCad Github Modules/Type-C.pretty/Type-C.lib")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "C:/Users/arche/AppData/Local/Programs/KiCad/KiCad Github Modules/SW_SKQG/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library_0")(type "KiCad")(uri "C:/Users/arche/AppData/Local/Programs/KiCad/KiCad Github Modules/SW_SKQG/New_Library_0.kicad_sym")(options "")(descr ""))
+)
