@@ -24,8 +24,8 @@ Solidworks renders of completed case & pcb:
 
 Kicad Renders:
 
-![KiCad Render 1](Pictures/front.jpg)
-![KiCad Render 2](Pictures/back.jpg)
+![KiCad Render 1](Pictures/front.png)
+![KiCad Render 2](Pictures/back.png)
 
 Kicad PCB editor view & schematic:
 ![PCB view 1](Pictures/Screenshot%20from%202026-06-17%2016-23-45.png)
