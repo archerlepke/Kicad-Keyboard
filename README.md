@@ -11,6 +11,7 @@ The goal of this repo is to document and archive my completed work on this proje
 > **Manufacturing & Physical Assembly** — The PCB design is complete and the board has been sent to manufacturing.
 
 Future Plans:
+- soldering components & microcontroller from digikey(already bought and delivered)
 - 3D Print keyboard case
 - install switches & keycaps (already bought and on hand)
 - install firmware (QMK)
