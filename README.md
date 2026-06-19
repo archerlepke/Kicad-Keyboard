@@ -1,4 +1,4 @@
-# Custom Mechanical Keyboard From Scratch
+# Custom 60% Keyboard From Scratch
 
 A custom mechanical keyboard designed from scratch in KiCad — schematic, PCB, and supporting files.
 
